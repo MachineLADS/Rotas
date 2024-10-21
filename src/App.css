@@ -1,0 +1,22 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;  
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlScgBV4b4DL8os9ERD4oP9KuwV8gxBiuqHQ&s');  
+    background-size: cover;
+    background-position: center;
+    color: black;  
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+p {
+    font-size: 1.5rem;
+}
