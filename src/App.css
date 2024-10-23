@@ -1,22 +1,42 @@
-.home-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;  
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlScgBV4b4DL8os9ERD4oP9KuwV8gxBiuqHQ&s');  
-    background-size: cover;
-    background-position: center;
-    color: black;  
-    text-align: center;
-    padding: 20px;
-}
-
-h1 {
-    font-size: 3rem;
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 10;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 550px;
+  }
+  
+  nav a {
+    color: green;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    font-size: 4em; /* Tamanho padrão */
+    color: #666; /* Cor do texto */
 }
 
-p {
-    font-size: 1.5rem;
-}
+
+
